@@ -1,0 +1,21 @@
+{
+  "name": "uni-pay-portion-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "swap": "ts-node src/example.ts",
+    "dev:typechain": "typechain --target ethers-v5 --out-dir types abi/**/*.json"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3",
+    "ethers": "v5",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@typechain/ethers-v5": "^10.2.0"
+  }
+}
